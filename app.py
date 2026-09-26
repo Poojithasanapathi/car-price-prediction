@@ -32,7 +32,7 @@ st.set_page_config(
 # Load the trained model
 # Your current model requires the "name" column
 final_model = joblib.load(
-    "/content/car_price_final_model.pkl"
+    "car_price_final_model.pkl"
 )
 
 
